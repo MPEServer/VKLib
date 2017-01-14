@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="VKLib">
+    <output-path>C:/Нова папка/plugins</output-path>
+    <root id="archive" name="VKLib.jar">
+      <element id="module-output" name="peteslexvklib" />
+    </root>
+  </artifact>
+</component>

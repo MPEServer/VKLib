@@ -1,0 +1,4 @@
+name: VKLib
+main: pe.teslex.vklib.VKLib
+version: "0.1-ALPHA"
+api: ["1.0.0"]
