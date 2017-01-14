@@ -15,7 +15,13 @@ import java.net.URL;
 
 public class VKLib extends PluginBase {
 
-    public static String newMessage(String token, int id, String message) {
+    /**
+     * @param token
+     * @param id
+     * @param message
+     * @return
+     */
+    public static String messagesSend(String token, int id, String message) {
         String line = "";
         String url = "https://api.vk.com/method/"+
                 "messages.send"+
@@ -38,7 +44,13 @@ public class VKLib extends PluginBase {
         return line;
     }
 
-    public static String newWall(String token, int id, String message) {
+    /**
+     * @param token
+     * @param id
+     * @param message
+     * @return
+     */
+    public static String wallPost(String token, int id, String message) {
         String line = "";
         String url = "https://api.vk.com/method/"+
                 "wall.post"+
