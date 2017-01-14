@@ -1,0 +1,10 @@
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init
+    - mvn clean
+    - mvn package
+
+machine:
+  java:
+    version: oraclejdk8
