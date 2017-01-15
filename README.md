@@ -1,4 +1,4 @@
 # VKLib
 Библиотека, облегчающая работу с VK API
 
-VKLib.messagesSend(token, 1, "message")
+Скачать скомпилированый плагин: http://ci.teslex.tech:8080/job/VKLib/
